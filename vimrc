@@ -15,8 +15,9 @@ set numberwidth=5                 " small gap between numbers and text
 set cursorline                     " highlight current line
 
 " Faint colors for line numbers and cursorline
-hi LineNr ctermfg=240 guifg=#888888 " fainter line numbers
-hi CursorLine cterm=none ctermbg=236 guibg=#2a2a2a " faint highlight, no underline
+hi LineNr ctermfg=240 guifg=#888888       " fainter line numbers
+hi CursorLine cterm=none ctermbg=236 guibg=#2a2a2a  " faint highlight, no underline
+hi CursorLineNr cterm=none ctermbg=236 guifg=#888888 guibg=#2a2a2a " match cursorline
 
 set hlsearch                      " highlight search results
 set incsearch                     " incremental search
