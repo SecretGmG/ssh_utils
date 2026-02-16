@@ -3,5 +3,5 @@
 ## vimrc
 get the `.vimrc' via:
 ```bash
-  curl -fsSL https://raw.githubusercontent.com/SecretGmG/ssh_utils/main/vimrc -o ~/.vimrc
+  curl -fsSL -H "Cache-Control: no-cache" https://raw.githubusercontent.com/SecretGmG/ssh_utils/main/vimrc -o ~/.vimrc
 ```
